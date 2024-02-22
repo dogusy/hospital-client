@@ -29,6 +29,9 @@ function App() {
         {
           path:'patienthome',
           element:<PatientHomePage/>
+        },{
+          path:"/",
+          element: <Navigate to="/hospitalregister" replace />
         }
       ]
     },

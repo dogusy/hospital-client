@@ -14,7 +14,6 @@ export const HospitalDetails: React.FC = () => {
 
     return (
         <React.Fragment>
-      <ToastContainer />
         <HospitalDetailsTable/>
         </React.Fragment>
 

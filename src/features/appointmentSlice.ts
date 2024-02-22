@@ -146,8 +146,12 @@ export const {
     return response;
   })
   
-        
   export const updatePatientDetails = createAsyncThunk("hospital/updatePatientDetails", async(patient:Patient,thunkAPI) =>{
+    const response = await patientService.updatePatientDetails(patient);
+    return response;
+  })
+
+  export const updatePatientDetailsByHospital = createAsyncThunk("hospital/updatePatientDetailsByHospital", async(patient:Patient,thunkAPI) =>{
     const response = await patientService.updatePatientDetails(patient);
     return response;
   })

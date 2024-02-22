@@ -7,17 +7,12 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import PatientDetailsTable from "./PatientDetailsTable";
 
-
 export const PatientDetails: React.FC = () => {
-
-
-    return (
-        <React.Fragment>
+  return (
+    <React.Fragment>
       <ToastContainer />
-        <PatientDetailsTable/>
-        </React.Fragment>
-
-          
-    );
+      <PatientDetailsTable />
+    </React.Fragment>
+  );
 };
 export default PatientDetails;
